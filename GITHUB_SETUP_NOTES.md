@@ -2,8 +2,8 @@
 
 > 專案：`opencode06`（`C:\opencode06`）
 > GitHub 登入信箱：`chinku@go.edu.tw`
-> GitHub 帳號：`chinku`
-> 目標 repo（同名）：`https://github.com/chinku/opencode06`
+> GitHub 帳號：`chinku-lgtm`（注意：不是 `chinku`，認證管理員與 repo 網址以此為準）
+> 目標 repo（同名）：`https://github.com/chinku-lgtm/opencode06`（Public，空 repo，已建）
 > 建立日期：2026-09-29
 
 ## 1. 重要觀念：Google 帳號 vs GitHub 登入
@@ -100,8 +100,8 @@ gh repo create opencode06 --public --source=. --push
 - PAT 過期症狀：`push` 出現 `403 / Authentication failed` → 重產生一顆 → Windows 認證管理員刪掉舊的 `git:https://github.com` → 再 push 一次輸入新的。
 
 ## 6. 本次待你回填（只寫非敏感資訊）
-- GitHub 帳號：________
-- Repo 網址：________
-- 認證方式：________
-- PAT 到期日：________
-- 推送成功時間：________
+- GitHub 帳號：`chinku-lgtm`
+- Repo 網址：`https://github.com/chinku-lgtm/opencode06`（HTTPS，Public）
+- 認證方式：PAT + Windows 認證管理員（`git:https://github.com` 已有 `chinku-lgtm`，`git push` 自動沿用免輸）
+- PAT 到期日：________（若日後 push 出現 403 再重產）
+- 推送成功時間：2026-09-29（`c0e8b89` → `origin/main`，已驗證 `git ls-remote`）
